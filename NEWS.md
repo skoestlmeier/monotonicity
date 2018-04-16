@@ -17,13 +17,13 @@
   Wolak, Frank A. (1989):
   Testing Inequality Constraints in Linear Econometric Models.
   *Journal of Econometrics*, **41**, p. 205-235.
-  doi: [http://doi.org/10.1016/0304-4076(89)90094-8](10.1016/0304-4076(89)90094-8).
+  doi: [10.1016/0304-4076(89)90094-8](http://doi.org/10.1016/0304-4076(89)90094-8).
   
    Patton, A. and Timmermann, A. (2010):
   Monotonicity in asset returns: New testes with applications to the term structure, the CAPM, and portfolio sorts.
   *Journal of Financial Economics*, **98**, No. 3, p. 605-625.
-  doi: [http://doi.org/10.1016/0304-4076(89)90094-8](10.1016/0304-4076(89)90094-8).
+  doi: [10.1016/j.jfineco.2010.06.006](https://doi.org/10.1016/j.jfineco.2010.06.006).
   
   Politis, Dimitris N. & Romano, Joseph P. (1994): The Stationary Bootstrap.
   *Journal of The American Statistical Association*,
-  **89**, No. 428, p. 1303-1313. doi: [http://doi.org/10.1080/01621459.1994.10476870](10.1080/01621459.1994.10476870).
+  **89**, No. 428, p. 1303-1313. doi: [10.1080/01621459.1994.10476870](http://doi.org/10.1080/01621459.1994.10476870).
