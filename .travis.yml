@@ -10,25 +10,8 @@ warnings_are_errors: true
 sudo: false
 cache: packages
 
-before_install:
-  - source travis/before-install.sh
-
-install:
-  - ./travis-tool.sh install_r MASS
-  - ./travis-tool.sh install_r lmtest
-  - ./travis-tool.sh install_r sandwich
-
 repos:
   CRAN: https://cloud.r-project.org
-
-r_packages:
-  - MASS
-  - lmtest
-  - sandwich
-
-env:
-  global:
-      - CRAN: http://cran.rstudio.com
 
 notifications:
   email:
