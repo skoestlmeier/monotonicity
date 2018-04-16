@@ -10,6 +10,9 @@ warnings_are_errors: true
 sudo: false
 cache: packages
 
+before_install:
+  - source travis/before-install.sh
+
 install:
   - ./travis-tool.sh install_r MASS
   - ./travis-tool.sh install_r lmtest
