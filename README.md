@@ -1,4 +1,4 @@
-#monotonicity
+# monotonicity
 
 Overview
 --------
@@ -7,7 +7,7 @@ Overview
 `monotonicity` is an R package providing several monotonicity tests for asset returns based on portfolio sorts. It's first version is mainly based on the paper *[Monotonicity in asset returns: New testes with applications to the term structure, the CAPM, and portfolio sorts](http://doi.org/10.1016/0304-4076(89)90094-8)* by Andrew Patton and Allan Timmermann. Please see Andrew Pattons [Matlab code page Nr. 8]()  for the original Matlab code or his *[Exec&Share profile](http://www.execandshare.org/CompanionSite/site.do?siteId=56)* providing an online executable version of monotonicity tests.
 
 
-###Key Features
+### Key Features
 Functions for monotonicity tests on asset returns based on portfolio sorts:
 
 * Wolak Test
