@@ -1,0 +1,17 @@
+#exportPattern("^[[:alpha:]]+")
+export(
+  "monoBonferroni",
+  "monoRelation",
+  "monoSummary",
+  "monoUpDown",
+  "statBootstrap",
+  "wolak")
+
+import(methods)
+import(stats)
+importFrom(utils, setTxtProgressBar)
+importFrom(utils, txtProgressBar)
+importFrom(lmtest, coeftest)
+importFrom(MASS, mvrnorm)
+importFrom(sandwich, NeweyWest)
+

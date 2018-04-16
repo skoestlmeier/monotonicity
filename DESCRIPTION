@@ -1,0 +1,13 @@
+Package: monotonicity
+Type: Package
+Title: Test for monotonicity in expected asset returns, sorted by portfolios
+Version: 0.9.0.9000
+Authors@R: c(person(given = "Siegfried", family = "Köstlmeier", role = c("aut", "cre", "trl"), email = "siegfried.koestlmeier@gmail.com"))
+Maintainer: Siegfried Köstlmeier <siegfried.koestlmeier@gmail.com>
+Description: Test for monotonicity in financial variables sorted by portfolios. It is conventional practice in empirical research to form portfolios of assets ranked by a certain sort variable. A t-test is then used to consider the mean return spread between the portfolios with the highest and lowest values of the sort variable. Yet comparing only the average returns on the top and bottom portfolios does not provide a sufficient way to test for a monotonic relation between expected returns and the sort variable. This package provides a nonparametric test for the full set of monotonic patterns and compares the proposed results with extant alternatives such as t-tests, Bonferroni bounds, and multivariate inequality tests through empirical applications and simulations.
+License: BSD_3_clause + file LICENSE
+Imports: lmtest, MASS, sandwich, stats, methods, utils
+Depends: R (>= 3.3.3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
