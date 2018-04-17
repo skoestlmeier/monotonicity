@@ -5,4 +5,4 @@
 ^cran-comments\.md$
 ^\.travis\.yml$
 ^\.DS_Store$
-^BSD-LICENSE$
+^LICENSE\.md$
