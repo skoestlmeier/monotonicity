@@ -1,8 +1,7 @@
 # converting input data into matrix
 
 matrix_conversion <- function(data) {
-  out <- tryCatch(
-    {
+
       if(is(data,"matrix")){
 
         return(data)
@@ -24,14 +23,10 @@ matrix_conversion <- function(data) {
 
         return(data)
 
+      }else{
+        stop("Cannot convert input data to class 'matrix'")
+
       }
 
-      break;
 
-    },
-    error=function(cond){
-      return("conversionFailed")
-    }
-  )
-  return(out)
 }
