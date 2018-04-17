@@ -4,3 +4,4 @@
 ^NEWS\.md$
 ^cran-comments\.md$
 ^\.travis\.yml$
+^\.DS_Store$
