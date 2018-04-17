@@ -1,5 +1,5 @@
-831ac66ba54d920a5aaeda4297676b5d *DESCRIPTION
-cb019dc142b06d46337025af67e90f19 *LICENSE
+c9e12b1d5caa96a9721977be4e959afc *DESCRIPTION
+2ef043389cc3221f6c6a1c95756cd04d *LICENSE
 45592a8fd2e16d72348652b8aef086b4 *NAMESPACE
 df199c4d04b42180694ae0a262386afa *NEWS.md
 4e51878370401baa2bc7a85866de9396 *README.md
@@ -18,8 +18,8 @@ c5e237d77e1d4db8c6c470adde6b4b16 *R/monoUpDown.R
 cf761ff2fb2c9a0f49210f2784f60139 *man/demo_returns.Rd
 476aee90bbc7e7d2a6eb0064fd9fc5e1 *man/monoBonferroni.Rd
 6072ab8bdd1f033b1d6642621f40ece3 *man/monoRelation.Rd
-22a81228242a655a4b5902510c14b92e *man/monoSummary.Rd
+e689f1402ff74e106816161b44424284 *man/monoSummary.Rd
 b80bcdbf51aa337648b7b88f11d45c53 *man/monoUpDown.Rd
 64ea0e709ee5b92be913cc90cd5878a7 *man/statBootstrap.Rd
-2d3cd835f1001db521da5802fc396093 *man/wolak.Rd
+035d93bdb69e2194449fcb7b7f049338 *man/wolak.Rd
 891fbcbb431ca210a48e6c15032215d8 *data/demo_returns.rda

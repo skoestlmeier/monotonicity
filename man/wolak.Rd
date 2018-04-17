@@ -57,7 +57,7 @@ wolak(data, increasing = TRUE, difference = FALSE, wolakRep = 100)
 
 \examples{
 ## load demo data and apply Wolak tests
-\dontrun{
+\donttest{
 data(demo_returns)
 tmp <- wolak(demo_returns)
 tmp$TestOnePvalueWolak
@@ -65,7 +65,7 @@ tmp$TestOnePvalueWolak
 ## transform existing data (asset returns) into difference returns before applying wolak()
 ## as data is finally in difference returns, appy wolak() with difference = TRUE
 
-\dontrun{
+\donttest{
 data <- demo_returns[, 2:ncol(demo_returns)] - (demo_returns[, 1:(ncol(demo_returns) - 1)])
 wolak(data, difference = TRUE)
 }

@@ -59,7 +59,7 @@ monoSummary(data, bootstrapRep = 1000, wolakRep = 100,
 \examples{
 ## load daily non-difference return data.
 ## test an increasing pattern of monotonicity
-\dontrun{
+\donttest{
 data(demo_returns)
 monoSummary(demo_returns, increasing = TRUE, block_length = 10)
 }
