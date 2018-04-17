@@ -1,6 +1,6 @@
 Package: monotonicity
 Type: Package
-Title: Test for monotonicity in expected asset returns, sorted by portfolios
+Title: Test for Monotonicity in Expected Asset Returns, Sorted by Portfolios
 Version: 0.9.0.9000
 Authors@R: c(person(given = "Siegfried", family = "Köstlmeier", role = c("aut", "cre", "trl"), email = "siegfried.koestlmeier@gmail.com"))
 Maintainer: Siegfried Köstlmeier <siegfried.koestlmeier@gmail.com>

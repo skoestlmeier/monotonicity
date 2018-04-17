@@ -5,7 +5,8 @@
   \code{monoSummary} implements the test for monotonicity in asset returns, based on portfolio sorts in (JoE, 2010)
 }
 \usage{
-monoSummary(data, bootstrapRep = 1000, wolakRep = 100, increasing = TRUE, difference = FALSE, plot = FALSE, block_length)
+monoSummary(data, bootstrapRep = 1000, wolakRep = 100,
+  increasing = TRUE, difference = FALSE, plot = FALSE, block_length)
 }
 \arguments{
   \item{data}{an object of class \code{"\link{matrix}"} (or one that
@@ -56,9 +57,10 @@ monoSummary(data, bootstrapRep = 1000, wolakRep = 100, increasing = TRUE, differ
 }
 
 \examples{
-## load demo data and apply monoSummary with daily return data, which are not yet in differences. Test an increasing pattern of monotonicity
+## load daily non-difference return data.
+## test an increasing pattern of monotonicity
 \dontrun{
 data(demo_returns)
-monoSummary(demo_returns, increasing = TRUE, difference = FALSE, block_length = 10)
+monoSummary(demo_returns, increasing = TRUE, block_length = 10)
 }
 }

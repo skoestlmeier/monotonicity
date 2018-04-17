@@ -13,7 +13,8 @@
 }
 
 \usage{
-monoRelation(data, bootstrapRep = 1000, increasing = TRUE, difference = FALSE, block_length)
+monoRelation(data, bootstrapRep = 1000, increasing = TRUE,
+  difference = FALSE, block_length)
 }
 
 \arguments{
@@ -49,7 +50,7 @@ monoRelation(data, bootstrapRep = 1000, increasing = TRUE, difference = FALSE, b
 }
 
 \examples{
-## load demo data and apply test with daily data, which are not yet in difference returns.
+## load non-difference return data and apply test with daily returns.
 data(demo_returns)
 monoRelation(demo_returns, block_length = 10)
 }

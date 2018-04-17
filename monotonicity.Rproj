@@ -16,4 +16,5 @@ AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes
 
 BuildType: Package
-PackageInstallArgs: --no-multiarch --with-keep.source
+PackageInstallArgs: --with-keep.source
+PackageCheckArgs: --as-cran
