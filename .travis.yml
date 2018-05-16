@@ -15,5 +15,7 @@ repos:
 
 notifications:
   email:
-    on_success: true
-    on_failure: true
+    recipients:
+      - siegfried.koestlmeier@gmail.com
+    on_success: always
+    on_failure: always

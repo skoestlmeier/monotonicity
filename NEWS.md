@@ -1,4 +1,4 @@
-# monotonicity 0.9.0.9000
+# monotonicity 1.1
 ## New features
 
 * `wolak` implements two tests from Wolak (1989, JoE) of inequality constraints in linear econometric models.
