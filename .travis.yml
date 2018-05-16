@@ -7,8 +7,7 @@ r:
   - devel
 
 warnings_are_errors: true
-dist: trusty
-sudo: required
+sudo: false
 cache: packages
 
 repos:
