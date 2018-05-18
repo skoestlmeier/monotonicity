@@ -4,6 +4,7 @@ Overview
 --------
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/monotonicity)](https://cran.r-project.org/package=monotonicity)
 [![Travis-CI Build Status](https://travis-ci.org/skoestlmeier/monotonicity.svg?branch=master)](https://travis-ci.org/skoestlmeier/monotonicity)
+[![codecov](https://codecov.io/gh/skoestlmeier/monotonicity/branch/master/graph/badge.svg)](https://codecov.io/gh/skoestlmeier/monotonicity)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/monotonicity?color=orange)](https://CRAN.R-project.org/package=monotonicity)
 
 `monotonicity` is an R package providing several monotonicity tests for asset returns based on portfolio sorts. It's first version is mainly based on the paper *[Monotonicity in asset returns: New testes with applications to the term structure, the CAPM, and portfolio sorts](https://doi.org/10.1016/0304-4076(89)90094-8)* by Andrew Patton and Allan Timmermann. Please see Andrew Pattons [Matlab code page Nr. 8](https://public.econ.duke.edu/~ap172/code.html) for the original Matlab code or his *[Exec&Share profile](http://www.execandshare.org/CompanionSite/site.do?siteId=56)* providing an online executable version of monotonicity tests.
