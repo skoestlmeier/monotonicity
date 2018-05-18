@@ -1,4 +1,4 @@
-ee414a5565a4c7ae6553ab669cae4251 *DESCRIPTION
+74142e6db7701f24e98ed980d2f0553d *DESCRIPTION
 44789a4d3e7ed93be06e1cf8d59d6fdc *LICENSE
 93d93117b0cebda5f75b80ef336bb6dd *LICENSE.md
 45592a8fd2e16d72348652b8aef086b4 *NAMESPACE
@@ -23,4 +23,6 @@ e689f1402ff74e106816161b44424284 *man/monoSummary.Rd
 b80bcdbf51aa337648b7b88f11d45c53 *man/monoUpDown.Rd
 64ea0e709ee5b92be913cc90cd5878a7 *man/statBootstrap.Rd
 035d93bdb69e2194449fcb7b7f049338 *man/wolak.Rd
+6d9d0193e9281fe09a65e1f529d75472 *tests/testthat.R
+00878c4ee2756a68b02645fa3f74267a *tests/testthat/test-monoUpDown.R
 891fbcbb431ca210a48e6c15032215d8 *data/demo_returns.rda
