@@ -4,5 +4,6 @@
 ^NEWS\.md$
 ^cran-comments\.md$
 ^\.travis\.yml$
+^appveyor\.yml$
 ^\.DS_Store$
 ^LICENSE\.md$
