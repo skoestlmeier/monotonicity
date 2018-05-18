@@ -4,7 +4,7 @@ test_that('wolak', {
   tmp <- wolak(demo_returns)
 
   expect_equal(tmp$TestOnePvalueWolak, 0)
-  expect_equal(tmp$TestTwoPvalueWolak, 0.9801157)
+  expect_equal(tmp$TestTwoPvalueWolak, 0.9801157, tolerance=1e-7)
 
   # test that all probability values are within the range [0,1]
   expect_gte(tmp$TestOnePvalueWolak,expected = 0)
