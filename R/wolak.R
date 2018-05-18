@@ -104,7 +104,7 @@ wolak <- function(data, increasing = TRUE, difference = FALSE, wolakRep = 100){
   }
 
   out <- list(as.numeric(result_1),as.numeric(result_2))
-  names(out) <- c("TestOnePvalueWolak","TestTwoPvalWolak")
+  names(out) <- c("TestOnePvalueWolak","TestTwoPvalueWolak")
   return(out)
 }
 
