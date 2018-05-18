@@ -9,11 +9,6 @@ warnings_are_errors: true
 sudo: false
 cache: packages
 
-script:
-  - |
-    R CMD build .
-    travis_wait 40 R CMD check --as-cran monotonicity.tar.gz
-
 r_packages:
   - covr
 
