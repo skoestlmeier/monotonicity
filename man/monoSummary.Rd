@@ -32,7 +32,7 @@ monoSummary(data, bootstrapRep = 1000, wolakRep = 100,
   The returning value of \code{"monoSummary"} is a \code{"data.frame"} containing the
   following components:
 
-  \item{Top-Bottom}{Mean difference return between top and bottom portfolio.}
+  \item{TopMinusBottom}{Mean difference return between top and bottom portfolio.}
   \item{t_stat}{the residuals, that is response minus fitted values.}
   \item{t_pval}{the fitted mean values.}
   \item{MR_pval}{the numeric rank of the fitted linear model.}

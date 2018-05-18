@@ -66,13 +66,17 @@ monoSummary <-  function(data, bootstrapRep = 1000, wolakRep = 100, increasing =
 
     temp <- monoBonferroni(data, difference)
     table1b[1, 9] <- temp$TestOnePvalBonferroni
-    colnames(table1b) <-  c("Top-Bottom", "t_stat", "t_pval", "MR_pval", "MRall_pval", "UP_pval", "DOWN_pval", "Wolak_pval", "Bonferroni_pval")
-    cat("\n")
-    cat("Table: Test of monotonicity for returns on sorted portfolios\n")
+    colnames(table1b) <-  c("TopMinusBottom", "t_stat", "t_pval", "MR_pval", "MRall_pval", "UP_pval", "DOWN_pval", "Wolak_pval", "Bonferroni_pval")
+
     cat("\n")
 
     table1b <- specify_decimal(table1b, 3)
-    table1b <- as.data.frame(table1b)
+    table1b <- data.frame(table1b, stringsAsFactors = FALSE)
+
+    for(i in 1:9){
+      table1b[[i]] <- as.numeric(table1b[[i]])
+    }
+
     if(plot){
     plot(
       1:10,
@@ -86,5 +90,6 @@ monoSummary <-  function(data, bootstrapRep = 1000, wolakRep = 100, increasing =
       )
     )
     }
+
     return(table1b)
   }

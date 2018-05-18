@@ -9,7 +9,7 @@ c87e963e501b91ccf5794e953d73b84b *cran-comments.md
 94044ca280bc34014af1cee7c4e8d83b *R/matrix_conversion.R
 8079d1378d951f5b3a52ab5e89d89cc8 *R/monoBonferroni.R
 79599bf1ed6269959de8428ef0c1b302 *R/monoRelation.R
-714b91a99559e62726d5a06bf2d913f1 *R/monoSummary.R
+059fb3d061d3e237526052e948169281 *R/monoSummary.R
 c5e237d77e1d4db8c6c470adde6b4b16 *R/monoUpDown.R
 6c75f8acd4d5bb6ce426958860efa953 *R/newey_west.R
 453aac01cbf55a793ddbdef6f0084ae8 *R/SB_variance.R
@@ -19,7 +19,7 @@ c5e237d77e1d4db8c6c470adde6b4b16 *R/monoUpDown.R
 cf761ff2fb2c9a0f49210f2784f60139 *man/demo_returns.Rd
 476aee90bbc7e7d2a6eb0064fd9fc5e1 *man/monoBonferroni.Rd
 6072ab8bdd1f033b1d6642621f40ece3 *man/monoRelation.Rd
-e689f1402ff74e106816161b44424284 *man/monoSummary.Rd
+58b0023e5e626568ac2f22a0f7f204da *man/monoSummary.Rd
 b80bcdbf51aa337648b7b88f11d45c53 *man/monoUpDown.Rd
 64ea0e709ee5b92be913cc90cd5878a7 *man/statBootstrap.Rd
 035d93bdb69e2194449fcb7b7f049338 *man/wolak.Rd
@@ -27,5 +27,7 @@ edc73a5688769936c004bfb7b5be31bf *tests/testthat.R
 823650fb89ac52b071d05c30e33981f0 *tests/testthat/test-monoBonferroni.R
 22f60b4d67a64866f047ee0b396a630e *tests/testthat/test-monoRelation.R
 72e12ea62cea5a4a88b4dbf21b7c0dfd *tests/testthat/test-monoUpDown.R
+237dece6621b8a44b3ac8a1b6b7ab66c *tests/testthat/test-monoSummary.R
+5160b332e50b50eaa480de3b930f745a *tests/testthat/test-specify_decimal.R
 a14fa15cba49b0b97e6b42ba1da4641a *tests/testthat/test-wolak.R
 891fbcbb431ca210a48e6c15032215d8 *data/demo_returns.rda
