@@ -95,6 +95,14 @@ wolak <- function(data, increasing = TRUE, difference = FALSE, wolakRep = 100){
   # pvalue from wolak's second test
   result_2 <- 1 - .weighted_chi2cdf(EI,weights)
 
+  if(result_1<0){
+    result_1 <- 0
+  }
+
+  if(result_2<0){
+    result_2 <- 0
+  }
+
   out <- list(as.numeric(result_1),as.numeric(result_2))
   names(out) <- c("TestOnePvalueWolak","TestTwoPvalWolak")
   return(out)
