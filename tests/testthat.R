@@ -1,6 +1,6 @@
 ## load dependencies
 library(testthat)
-library(codecov.R)
+library(monotonicity)
 
 ## test package
-test_check('codecov.R')
+test_check('monotonicity')
