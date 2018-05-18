@@ -3,6 +3,7 @@
 Overview
 --------
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/monotonicity)](https://cran.r-project.org/package=monotonicity)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![Travis-CI Build Status](https://travis-ci.org/skoestlmeier/monotonicity.svg?branch=master)](https://travis-ci.org/skoestlmeier/monotonicity)
 [![codecov](https://codecov.io/gh/skoestlmeier/monotonicity/branch/master/graph/badge.svg)](https://codecov.io/gh/skoestlmeier/monotonicity)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/monotonicity?color=blue)](https://CRAN.R-project.org/package=monotonicity)
