@@ -1,6 +1,7 @@
 context('functions')
 
 test_that('monoSummary', {
+  skip_on_cran()
   tmp <- monoSummary(demo_returns, bootstrapRep = 1, wolakRep = 1, block_length = 10)
 
   # test for dimension of output

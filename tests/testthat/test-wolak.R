@@ -1,6 +1,7 @@
 context('functions')
 
 test_that('wolak', {
+  skip_on_cran()
   tmp <- wolak(demo_returns)
 
   expect_equal(tmp$TestOnePvalueWolak, 0)
