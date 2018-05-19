@@ -13,7 +13,7 @@ r_packages:
   - covr
 
 after_success:
-  - Rscript -e 'library(covr); codecov()'
+  - Rscript --verbose -e 'library(covr); print("output to console"); codecov()'
 
 repos:
   CRAN: https://cloud.r-project.org
