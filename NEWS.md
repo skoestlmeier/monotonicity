@@ -1,4 +1,15 @@
-# monotonicity 1.1
+#monotonicity 1.1
+## New features
+
+* `testthat` for unit testing.
+
+* `AppVeyor` for additional build tests on Microsoft Windows platforms.
+
+* `CODE_OF_CONDUCT`, `PULL_REQUEST_TEMPLATE` and `ISSUE_TEMPLATE` for contribution to the project.
+
+* Bug fix in `monoSummary`: Output results are now in number-format rather than a sequence of characters.
+
+# monotonicity 1.0
 ## New features
 
 * `wolak` implements two tests from Wolak (1989, JoE) of inequality constraints in linear econometric models.

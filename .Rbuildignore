@@ -7,3 +7,7 @@
 ^\.appveyor\.yml$
 ^\.DS_Store$
 ^LICENSE\.md$
+^CODE_OF_CONDUCT\.md$
+^\.github$
+^ISSUE_TEMPLATE\.md$
+^PULL_REQUEST_TEMPLATE\.md$

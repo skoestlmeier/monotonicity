@@ -8,6 +8,7 @@ Overview
 [![Build status](https://ci.appveyor.com/api/projects/status/nsrpduvdn28gf78r?svg=true)](https://ci.appveyor.com/project/skoestlmeier/monotonicity)
 [![codecov](https://codecov.io/gh/skoestlmeier/monotonicity/branch/master/graph/badge.svg)](https://codecov.io/gh/skoestlmeier/monotonicity)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/monotonicity?color=blue)](https://CRAN.R-project.org/package=monotonicity)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 `monotonicity` is an R package providing several monotonicity tests for asset returns based on portfolio sorts. It's first version is mainly based on the paper *[Monotonicity in asset returns: New testes with applications to the term structure, the CAPM, and portfolio sorts](https://doi.org/10.1016/0304-4076(89)90094-8)* by Andrew Patton and Allan Timmermann. Please see Andrew Pattons [Matlab code page Nr. 8](https://public.econ.duke.edu/~ap172/code.html) for the original Matlab code or his *[Exec&Share profile](http://www.execandshare.org/CompanionSite/site.do?siteId=56)* providing an online executable version of monotonicity tests.
 
@@ -53,6 +54,7 @@ Constributions in form of feedback, comments, code, bug reports or pull requests
 * Issues, bug reports, or desired expansions: File a GitHub issue.
 * Fork the source code, modify it, and issue a pull request through the project GitHub page.
 
-License
--------
-BSD 3-clause license.
+Code of conduct
+------------
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
