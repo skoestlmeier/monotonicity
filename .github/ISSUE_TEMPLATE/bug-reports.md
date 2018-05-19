@@ -1,6 +1,6 @@
 ---
-name: Bug reports
-about: Bug reports, feature request and other topics
+name: Bug report
+about: Please use this template for bug reports only
 
 ---
 
