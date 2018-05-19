@@ -1,9 +1,3 @@
----
-name: Custom issue template
-about: Describe this issue template's purpose here.
-
----
-
 <!--- Provide a general summary of the issue in the Title above -->
 
 ## Expected Behavior
