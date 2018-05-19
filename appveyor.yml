@@ -4,9 +4,10 @@ init:
   ps: |
         Get-Date
         $ErrorActionPreference = "Stop"
+        Invoke-WebRequest http://raw.github.com/krlmlr/r-appveyor/master/scripts/appveyor-tool.ps1 -OutFile "..\appveyor-tool.ps1"
+        Import-Module '..\appveyor-tool.ps1'
 install:
   ps: |
-        Import-Module '.\appveyor.ps1'
         Bootstrap
 # Adapt as necessary starting from here
 
@@ -64,13 +65,3 @@ artifacts:
 
   - path: '\*_*.zip'
     name: Bits
-
-notifications:
- - provider: Email
-   to:
-     - siegfried.koestlmeier@gmail.com
-   subject: 'r-appveyor build {{status}}'
-   message: "https://ci.appveyor.com/project/skoestlmeier/monotonicity"
-   on_build_success: true
-   on_build_failure: true
-   on_build_status_changed: true
