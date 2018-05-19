@@ -9,5 +9,5 @@
 ^LICENSE\.md$
 ^CODE_OF_CONDUCT\.md$
 ^\.github$
-^ISSUE_TEMPLATE\.md$
+^custom\.md$
 ^PULL_REQUEST_TEMPLATE\.md$
