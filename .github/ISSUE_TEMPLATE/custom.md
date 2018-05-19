@@ -1,6 +1,6 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: Bug report
+about: Please use this template for bug reports only.
 
 ---
 
