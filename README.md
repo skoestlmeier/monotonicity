@@ -54,6 +54,8 @@ Constributions in form of feedback, comments, code, bug reports or pull requests
 * Issues, bug reports, or desired expansions: File a GitHub issue.
 * Fork the source code, modify it, and issue a pull request through the project GitHub page.
 
+Please read the [contribution guidelines](CONTRIBUTING.md) on how to contribute to this R-package.
+
 Code of conduct
 ------------
 

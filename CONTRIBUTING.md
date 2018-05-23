@@ -4,20 +4,6 @@ Thanks for taking the time to contribute!
 
 The following is a set of guidelines for contributing to the monotonicity R-package, which is hosted on [CRAN](https://cran.r-project.org/package=monotonicity). These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-#### Table Of Contents
-
-[Code of Conduct](#code-of-conduct)
-
-[How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Pull Requests](#pull-requests)
-
-[Styleguides and policies](#styleguides)
-  * [Git Commit Messages](#git-commit-messages)
-  * [R Styleguide](#r-styleguide)
-  * [CRAN Policy](#cran-policy)
-
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [monotonicity Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [siegfried.koestlmeier@gmail.com](mailto:siegfried.koestlmeier@gmail.com).
@@ -60,5 +46,5 @@ All R code must adhere to [Google's R Style Guide](https://google.github.io/styl
 
 ### CRAN Policy
 
-When contributing to monotonicity, any changes must be conform with the [CRAN-Policy](https://cran.r-project.org/submit.html). Please check all contributing code with `R CMD check --as-cran` before commiting to GitHub - no errors or warnings may occur.
+When contributing to monotonicity, any changes must be conform with the [CRAN-Policy](https://cran.r-project.org/web/packages/policies.html). Please check all contributing code with `R CMD check --as-cran` before commiting to GitHub - no errors or warnings may occur.
 
