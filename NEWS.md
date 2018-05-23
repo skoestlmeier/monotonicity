@@ -1,4 +1,4 @@
-#monotonicity 1.1
+# monotonicity 1.1
 ## New features
 
 * `testthat` for unit testing.
