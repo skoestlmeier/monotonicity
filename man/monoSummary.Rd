@@ -53,7 +53,7 @@ monoSummary(data, bootstrapRep = 1000, wolakRep = 100,
   Patton, A. and Timmermann, A. (2010):
   Monotonicity in asset returns: New testes with applications to the term structure, the CAPM, and portfolio sorts.
   \emph{Journal of Financial Economics}, \bold{98}, No. 3, p. 605--625.
-  \doi{10.1016/0304-4076(89)90094-8}.
+  \doi{10.1016/j.jfineco.2010.06.006}.
 }
 
 \examples{

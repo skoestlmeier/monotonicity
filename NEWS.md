@@ -1,3 +1,8 @@
+# monotonicity 1.2
+## New features
+
+* Minor bug-fixes in documentation and references.
+
 # monotonicity 1.1
 ## New features
 
