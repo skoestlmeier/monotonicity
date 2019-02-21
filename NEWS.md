@@ -1,3 +1,8 @@
+# monotonicity 1.3
+## New features
+
+* Bug fix in Wolak's test: Corrected p-values for both test statistics.
+
 # monotonicity 1.2
 ## New features
 

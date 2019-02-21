@@ -35,7 +35,7 @@ wolak(data, increasing = TRUE, difference = FALSE, wolakRep = 100)
   dramatically increases with the number of simulations. However, for robust results a minimum of 100 runs is highly recommended.
 
   The HAC estimator of the covariance matrix of follows the adjustment of Newey-West (1987, 1994).
-  The kernel ues is "Bartlett". See \code{\link[sandwich:NeweyWest]{NeweyWest}} for further information.
+  The kernel used is "Bartlett". See \code{\link[sandwich:NeweyWest]{NeweyWest}} for further information.
 }
 \value{
   \code{wolak} returns an object of \code{\link{class}} \code{"list"}.
