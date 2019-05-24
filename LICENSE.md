@@ -1,4 +1,4 @@
-Copyright (c) 2018, Siegfried Köstlmeier.
+Copyright (c) 2019, Siegfried Köstlmeier.
 
 All rights reserved.
 
