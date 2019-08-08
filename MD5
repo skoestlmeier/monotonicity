@@ -34,5 +34,5 @@ ad98a542d2d7505d5d1c79f6ffa767c9 *tests/testthat/test-monoBonferroni.R
 b5ffd69153e59bb23536db42363f11da *tests/testthat/test-specify_decimal.R
 1435560ff0797bff2747e1b5194f6179 *tests/testthat/test-wolak.R
 3a0b682ab710c0973ad17d7c3dca326d *tests/testthat/test-matrix_conversion.R
-86b2830653e46cfff19af56f93726ba5 *tests/testthat/test-statBootstrap.R
+1dc25a9cf19b8bcd0300c3144eab69de *tests/testthat/test-statBootstrap.R
 891fbcbb431ca210a48e6c15032215d8 *data/demo_returns.rda
