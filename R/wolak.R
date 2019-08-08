@@ -13,7 +13,7 @@ wolak <- function(data, increasing = TRUE, difference = FALSE, wolakRep = 100){
   }
 
   if(!(is.atomic(wolakRep) & length(wolakRep) == 1 & is.numeric(wolakRep))){
-    stop("The variable 'wolakReP' must be a numeric scalar.")
+    stop("The variable 'wolakRep' must be a numeric scalar.")
   }
 
   if(!is(increasing,"logical")){

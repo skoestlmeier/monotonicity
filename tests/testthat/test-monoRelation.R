@@ -1,6 +1,17 @@
 context('functions')
 
 test_that('monoRelation', {
+  
+  expect_error(monoRelation(block_length = 10))
+  expect_error(monoRelation(demo_returns, bootstrapRep= "10"))
+  expect_error(monoRelation(demo_returns, bootstrapRep = -1))
+  expect_error(monoRelation(demo_returns, increasing = "FALSE"))
+  expect_error(monoRelation(demo_returns, difference = "FALSE"))
+  expect_error(monoRelation(demo_returns, difference = "FALSE"))
+  expect_error(monoRelation(demo_returns))
+  expect_error(monoRelation(demo_returns, block_length = 7))
+  expect_error(monoRelation(data = cbind(demo_returns, demo_returns), block_length = 2))
+  
   tmp <- monoRelation(demo_returns, block_length = 10)
 
   # test for dimension of output

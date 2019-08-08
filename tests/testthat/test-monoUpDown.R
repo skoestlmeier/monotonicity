@@ -1,6 +1,15 @@
 context('functions')
 
 test_that('monoUpDown', {
+  expect_error(monoUpDown(block_length = 10))
+  expect_error(monoUpDown(demo_returns, difference = "FALSE"))
+  expect_error(monoUpDown(demo_returns, bootstrapRep = "100"))
+  expect_error(monoUpDown(demo_returns, bootstrapRep = -1))
+  expect_error(monoUpDown(demo_returns))
+  expect_error(monoUpDown(demo_returns, block_length = 7))
+  expect_error(monoUpDown(demo_returns))
+  expect_error(monoUpDown(data = cbind(demo_returns, demo_returns), block_length = 10))
+  
   # test for dimension of output
   expect_equal(dim(monoUpDown(demo_returns,block_length = 10)),as.integer(c(4,2)))
 

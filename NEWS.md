@@ -1,3 +1,8 @@
+# monotonicity 1.4
+## New features
+
+* Added `testthat` test-cases for further development.
+
 # monotonicity 1.3
 ## New features
 

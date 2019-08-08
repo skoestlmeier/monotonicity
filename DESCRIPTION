@@ -9,7 +9,7 @@ Description: Test for monotonicity in financial variables sorted by portfolios. 
 License: BSD_3_clause + file LICENSE
 URL: https://github.com/skoestlmeier/monotonicity
 Imports: lmtest, MASS, sandwich, stats, methods, utils
-Suggests: testthat
+Suggests: testthat, xts
 Depends: R (>= 3.3)
 Encoding: UTF-8
 LazyData: true
