@@ -11,6 +11,7 @@ test_that('wolak', {
   expect_error(wolak(demo_returns, wolakRep = 100, difference = "FALSE"))
   expect_error(wolak(T = 100))
   expect_error(wolak(T = 100, block_length = 7))
+  expect_error(wolak(demo_returns, zero_treshold = "0.1"))
   
   tmp <- wolak(demo_returns)
 

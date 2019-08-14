@@ -14,6 +14,7 @@ test_that('monoSummary', {
   expect_error(monoSummary(demo_returns))
   expect_error(monoSummary(demo_returns, block_length = 7))
   expect_error(monoSummary(cbind(demo_returns, demo_returns), block_length = 10))
+  expect_error(monoSummary(demo_returns, block_length = 10, zero_treshold = "0.1"))
   
   tmp <- suppressWarnings(monoSummary(demo_returns, bootstrapRep = 1, wolakRep = 1, block_length = 10))
 

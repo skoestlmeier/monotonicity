@@ -15,7 +15,7 @@
   \eqn{H1**: d1 > 0, d2 > 0, ..., dK > 0.}
 }
 \usage{
-wolak(data, increasing = TRUE, difference = FALSE, wolakRep = 100)
+wolak(data, increasing = TRUE, difference = FALSE, wolakRep = 100, zero_treshold = 1e-6)
 }
 \arguments{
   \item{data}{an object of class \code{"\link{matrix}"} (or one that
@@ -26,13 +26,16 @@ wolak(data, increasing = TRUE, difference = FALSE, wolakRep = 100)
   \item{difference}{An object of class \code{"\link{logical}"}: If \code{data} is already differences in asset returns, use TRUE. Otherwise \code{data} will be transformed to difference returns \eqn{r_p(n+1) - r_p(n)} between portfolio \eqn{n+1 } and portfolio \eqn{n}}
 
   \item{wolakRep}{A numeric scalar, stating the number of simulations to use to estimate the weight function in the weighted-sum of chi-square variables.}
+  
+  \item{zero_treshold}{A numeric scalar, being the treshold for comparing solution values of a non-linear optimization against zero. See section DETAILS for further information.}
 }
 \details{
   Currently supported as input type of \code{data} are classes \code{"\link{matrix}"},
   \code{"\link{data.frame}"}, \code{ts}, \code{xts} and \code{zoo}.
 
-  Using demo data shows for \code{wolakRep}, that results do not change much at all for 100 or 1000 simulations, but the running time
-  dramatically increases with the number of simulations. However, for robust results a minimum of 100 runs is highly recommended.
+  Using demo data shows for \code{wolakRep}, that results do not change much at all for 100 or 1000 simulations, but the running time dramatically increases with the number of simulations. However, for robust results a minimum of 100 runs is highly recommended.
+  
+  Internally, a non-linear optimization using \code{"\link{constrOptim}"} is used for the Monte-Carlo simulation. The resulting values of the solution are close to zero, but due to the used machine precision numerically differnt from zero. For this reason, we suggest a treshold value close to zero. The default value is \eqn{1e-6}, so all resulting solutions smaller than the treshold value are treated as being zero. The default treshold value is consistent with the data-set and results of Patton and Timmermann (JoE, 2010). Of course, the appropriate treshold value can differ across applications (e.g. run the code on one set of data, and then the same data/100).
 
   The HAC estimator of the covariance matrix of follows the adjustment of Newey-West (1987, 1994).
   The kernel used is "Bartlett". See \code{\link[sandwich:NeweyWest]{NeweyWest}} for further information.

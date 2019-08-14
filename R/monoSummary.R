@@ -1,4 +1,4 @@
-monoSummary <-  function(data, bootstrapRep = 1000, wolakRep = 100, increasing = TRUE, difference = FALSE, plot = FALSE, block_length){
+monoSummary <-  function(data, bootstrapRep = 1000, wolakRep = 100, increasing = TRUE, difference = FALSE, plot = FALSE, block_length, zero_treshold = 1e-6){
 
   if (missing(data)) {
     stop("Variable 'data' is missing.")
@@ -44,6 +44,10 @@ monoSummary <-  function(data, bootstrapRep = 1000, wolakRep = 100, increasing =
   if (!block_length %in% c(10,6,3,2)) {
     stop("The variable 'block_length' must be a number from the set {2,3,6,10} for annual/quarterly/monthly/daily return data.")
   }
+  
+  if(!(is.atomic(zero_treshold) & length(zero_treshold) == 1 & is.numeric(zero_treshold))){
+    stop("The variable 'zero_treshold' must be a numeric scalar.")
+  }
 
     T <- nrow(data)
     n <- ncol(data)
@@ -61,7 +65,7 @@ monoSummary <-  function(data, bootstrapRep = 1000, wolakRep = 100, increasing =
     temp <- monoUpDown(data, difference, bootstrapRep, block_length)
     table1b[1, 6:7] <- t(temp[3:4, 2])
 
-    temp <- wolak(data, increasing, difference, wolakRep)
+    temp <- wolak(data, increasing, difference, wolakRep, zero_treshold)
     table1b[1, 8] <- temp$TestOnePvalueWolak
 
     temp <- monoBonferroni(data, difference)
