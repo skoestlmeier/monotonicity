@@ -1,15 +1,8 @@
-# monotonicity 1.5
-## New features
+# monotonicity 1.3
 
 * Added the option to allow a user-specific treshold value for checking non-linear optimization results against zero. Resulting values are close to zero, but due to the internal used machine precision, checking against zero would be wrong. The default treshold value is 1e-6 and solution values smaller than the treshold are treated as being zero. 
 
-# monotonicity 1.4
-## New features
-
 * Added `testthat` test-cases for further development.
-
-# monotonicity 1.3
-## New features
 
 * Bug fix in Wolak's test: Corrected p-values for both test statistics.
 
