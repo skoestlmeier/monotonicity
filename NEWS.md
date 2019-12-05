@@ -1,3 +1,8 @@
+# monotonicity 1.3.1
+
+The R version 4.0.0 sets `_R_CLASS_MATRIX_ARRAY_=true`, so matrix objects now also inherit from class `array`. As a consequence,
+the testthat unit tests had to be slightly adjusted.
+
 # monotonicity 1.3
 
 * Added the option to allow a user-specific treshold value for checking non-linear optimization results against zero. Resulting values are close to zero, but due to the internal used machine precision, checking against zero would be wrong. The default treshold value is 1e-6 and solution values smaller than the treshold are treated as being zero. 

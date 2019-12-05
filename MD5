@@ -1,9 +1,9 @@
-2ba336ee8652d90374660f4967cdd39e *DESCRIPTION
+007f06c1cc63c87533087d9f1e8e2449 *DESCRIPTION
 a77c18f08d6f3d03246f13d51252247d *LICENSE
 eb3ca8643e0cfb484c565dd226b734f3 *LICENSE.md
 0630b333ba42745a7f61114bc44f8c4b *CODE_OF_CONDUCT.md
 30b839b5deaeede3a1d6c95889d5632e *NAMESPACE
-aacf9a9798baa5e5eefc22e74482479c *NEWS.md
+d872e515dd1e0e5adb2d1338ef112a70 *NEWS.md
 b38f0a91c63375e1fb491890fc98192c *README.md
 9393589b1e79c09190e7ffe311e23ad2 *PULL_REQUEST_TEMPLATE.md
 b50586b1f036886219dde2732d4d2f8f *THANKS
@@ -33,6 +33,6 @@ ad98a542d2d7505d5d1c79f6ffa767c9 *tests/testthat/test-monoBonferroni.R
 6186eda1ffab7859e1c9fd052703bc16 *tests/testthat/test-monoSummary.R
 b5ffd69153e59bb23536db42363f11da *tests/testthat/test-specify_decimal.R
 3fd51362b91404c22f717774a8ac8d2b *tests/testthat/test-wolak.R
-3a0b682ab710c0973ad17d7c3dca326d *tests/testthat/test-matrix_conversion.R
+40593b66b2d3180d9f1052f9ab802e0e *tests/testthat/test-matrix_conversion.R
 776e06b7335f17d803949d312dafa2a5 *tests/testthat/test-statBootstrap.R
 891fbcbb431ca210a48e6c15032215d8 *data/demo_returns.rda

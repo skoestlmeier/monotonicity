@@ -14,8 +14,8 @@ test_that('matrix_conversion', {
   expect_type(matrix_conversion(test_matrix), "double")
   expect_type(matrix_conversion(test_df), "double")
   
-  expect_equal(class(matrix_conversion(test_matrix)), "matrix")
-  expect_equal(class(matrix_conversion(test_df)), "matrix")
+  expect_equal(class(matrix_conversion(test_matrix))[1], "matrix")
+  expect_equal(class(matrix_conversion(test_df))[1], "matrix")
   expect_equal(class(matrix_conversion(test_ts)), "ts")
   expect_equal(class(matrix_conversion(test_xts)), c("xts", "zoo"))
   expect_equal(class(matrix_conversion(test_zoo)), c("zooreg", "zoo"))
