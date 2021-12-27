@@ -39,7 +39,7 @@ The monotonicity tests provided by this package are mostly based on simulated bo
 For an estimation of the variation of the results, we exemplarily run the MR (Monotonic Relationship) Test provided by the function `monoRelation` 1,000 times with identical input data. We observed the following results for the mean studentised p-value, using the provided R package and in comparison Andrew Pattons original Matlab code:
 
 
-| Software | Mean | Minimum | Maximum | Standard Deviation
+| Software | Mean | Minimum | Maximum | Standard deviation
 | --- | --- | --- | --- | ---|
 | Matlab | 0.032 | 0.014 | 0.047 | 0.0057
 | R | 0.031 | 0.018 | 0.048 | 0.0064
